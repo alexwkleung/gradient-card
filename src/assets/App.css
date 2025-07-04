@@ -1,0 +1,15 @@
+@layer theme, components, utilities;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+* {
+  font-family: 'system-ui';
+}
+
+html,
+body {
+  margin: 0;
+  background: linear-gradient(to top, #4b5563, #fda4af, #fed7aa);
+  cursor: none !important;
+}
