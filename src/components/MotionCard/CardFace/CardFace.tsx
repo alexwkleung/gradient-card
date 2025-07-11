@@ -4,6 +4,7 @@ interface CardFaceProps {
   children: ReactNode;
   back?: boolean;
 }
+
 const CardFace = ({ children, back = false }: CardFaceProps) => {
   return (
     <div

@@ -3,6 +3,8 @@
 @import 'tailwindcss/theme.css' layer(theme);
 @import 'tailwindcss/utilities.css' layer(utilities);
 
+@import './global-vars.css';
+
 * {
   font-family: 'system-ui';
 }
@@ -10,6 +12,6 @@
 html,
 body {
   margin: 0;
-  background: linear-gradient(to top, #4b5563, #fda4af, #fed7aa);
+  background: var(--gradient-bg);
   cursor: none !important;
 }

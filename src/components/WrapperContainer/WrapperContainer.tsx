@@ -1,6 +1,10 @@
 import type { ReactNode } from 'react';
 
-const WrapperContainer = ({ children }: { children: ReactNode }) => {
+interface WrapperContainerProps {
+  children: ReactNode;
+}
+
+const WrapperContainer = ({ children }: WrapperContainerProps) => {
   return <div className="flex items-center justify-center min-h-screen">{children}</div>;
 };
 
