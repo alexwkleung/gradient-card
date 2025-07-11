@@ -1,4 +1,4 @@
-# Sunset Card
+# Gradient Card
 
 Small experimental front-end project!
 
