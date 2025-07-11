@@ -5,7 +5,7 @@ interface WrapperContainerProps {
 }
 
 const WrapperContainer = ({ children }: WrapperContainerProps) => {
-  return <div className="flex items-center justify-center min-h-screen">{children}</div>;
+  return <div className="relative flex flex-col min-h-screen">{children}</div>;
 };
 
 export default WrapperContainer;
